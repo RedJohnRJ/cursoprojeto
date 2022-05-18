@@ -1,0 +1,913 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "MinhaFonte";
+    src: url("./Fonts/MontserratAlternates-Light.otf") format("woff2") ;
+    
+  }
+ 
+
+  body{
+    font-family:'MinhaFonte';
+}
+
+.whatsapp{
+    color: #fff;
+    background-color: #25d366;
+    text-decoration: none;
+    border:1px #21422e solid;
+    transition: 0.5s ease;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+
+  }
+  .whatsapp:hover{
+    background-color: #2fab5d;
+    color: #fff;
+  }
+  .whatsapp span img{
+    height: 1.5rem;
+}
+
+.header-content{
+    font-size: 30px;
+}
+
+.header-content h1{
+    font-size: 7rem;
+}
+
+header nav h1:hover{
+    background-color: #F5D3C8;
+}
+
+/* .container{
+    max-width: 1500px;
+    margin: auto;
+} */
+header {
+    height: 100vh;
+    background: url('./images/fundo2.jpg');
+}
+
+h1{
+    font-size: 6rem;
+    
+}
+
+.header-content{
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav li{
+    margin: 0 1px;
+}
+
+header nav li:hover{
+    background-color: white;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+header nav h1{
+    font-size: 2em;
+    font-family:'MinhaFonte';
+}
+
+header nav p {
+    font-weight:  bold;
+
+}
+
+
+
+header{
+    padding: 20px;
+    background:white    ;
+    
+}
+
+header{
+    height: calc(100vh - 150px) ;
+    background:no-repeat center/cover url('./fundopapelaria.jpg');
+    background-attachment: fixed;
+}
+
+header li{
+    color: #454545;
+    /* text-shadow: 5px 2px 10px rgb(175 150 118); */
+    margin-right: 40px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* .logomenu{
+    height: calc(100vh - 200px);
+    background:no-repeat center/cover url('./images/fundo2.jpg');
+    background-attachment: fixed;
+} */
+
+    
+section h1 {
+    font-size: 4rem;
+    /* text-align: center; */
+    margin: auto;
+    
+}
+
+section h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* .textomenu{
+    padding: 300px;
+} */
+
+.pacotes{
+    background:#F5D3C8; 
+    height: auto;
+    /* transform: scale(1.1); */
+    /* padding: 100px; */
+
+}
+
+.pacotes .pacotes-cards {
+    display: flex;
+    margin: auto;
+    /* max-width: 1900px; */
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    
+}
+
+.pacotes .pacotes-title {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+}
+
+
+.pacotes .card{
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0px;
+    margin: 25px;
+    position: relative;
+}
+.pacotes .card-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 24px 0 0 0;
+    
+    
+}
+
+.pacotes .card-content {
+   padding: 15px; 
+   
+   
+}
+
+.pacotes h1{
+    font-size: 20px;
+}
+
+.pacotes .card .card-tag-top{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #F19839;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom{
+    position: absolute;
+    left: 0;
+    top: 230px;
+    background: #1D61DD;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.servicos{
+    padding: 20px;
+}
+
+.servicos .servicos-title{
+    text-align: center ;
+    margin: 35px 0;
+
+}
+
+.servicos .servicos-cards{
+    padding-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+
+
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+   
+}
+
+.servicos .card img {
+    width: 60px;
+    margin: 50px;
+    
+}
+
+.pacotes .card:hover {
+    transform: scale(1.1);
+}
+
+.servicos .card h3{
+    font-weight: bold;
+}
+
+.servicos .card p{
+    color: grey;
+    text-align: center;
+    font-size: .9rem;
+}
+
+.servicos .card .card-content{
+    height: 180px;
+    text-align: center;
+    transform: scale(1.1);
+
+}
+
+.servicos button {
+    padding: 10px; 
+    background: #F19839;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+}
+
+.servicos button:hover {
+    transform: scale(1.5);
+    color: black;
+   
+
+}
+
+.imagem-servicos:hover{
+    stroke: blue;
+    transform: scale(1.5);
+}
+
+.sobre-principal{
+    background-color: #F5D3C8;
+    height: auto;
+}
+
+.sobre-principal h1{
+    text-align: center;
+    padding: 40px;
+}
+
+.sobre-principal p{
+    font-size: 20px;
+    padding: 30px;
+}
+
+.sobre-image{
+    width: 250px;
+    height: 250px;
+    border-radius: 220px;
+}
+
+.sobre-image2{
+    text-align: center;
+    margin: 35px 0;
+}
+
+
+
+.contato-title{
+    text-align: center;
+}
+
+.contato-title-h2{
+    padding: 10px;
+}
+
+.formulario-content{
+    float: left;
+    max-width: 568px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.servico-atendimento{
+    float: right;
+    max-width: 568px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+
+input, select {
+    max-width: 800px;
+    /* width: 100%; */
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    /* border-radius: 1px; */
+}
+
+input[type=submit]{
+    float: right;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+input[type=submit]:hover {
+    background-color: #F19839;
+    transform: scale(1.2);
+}
+
+input[type=text ]{
+    width: 568px;
+}
+input[type=number]{
+    width: 568px;
+}
+
+.img-personagem{
+    border-radius: 300px;
+    max-width: 130px;
+    width: 70px;
+}
+
+.conteudo-logo{
+    display: table;
+}
+
+.imagem-logo1{
+    display: table-cell;
+    float: left;
+    
+}
+.texto{
+    display: table-cell;
+    float: left;
+    width: 450px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.footer-principal{
+    display: inline-block;
+    width: 100%;
+}
+
+footer{
+    height: auto;
+    background-color: #F5D3C8;
+}
+
+.footer-contatos{
+    float: left;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.footer-help{
+    padding: 20px;
+    margin-left: 300px;
+}
+
+.footer-help ul{
+    list-style: none;
+    padding: 20px;
+}
+
+.footer-endereco{
+    padding: 20px;
+    float: right;
+    
+}
+
+.desenvolvido{ 
+ font-size: 10px;
+}
+
+
+
+
+
+
+
+/* RESPONSIVIDADE  */
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+    body{
+        height: calc(100vh - 55px);
+    }
+
+    .pacotes{
+        height: auto;
+    }
+
+    header nav ul {
+        position: fixed;
+        bottom: 0;
+        left:0;
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        background: #F5D3C8;
+        width: 767px;
+        height: 55px;
+        font-weight: bold;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+
+    }
+
+
+    .pacotes .pacotes-cards {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        
+    }
+    
+    header nav p{
+        font-size: 4rem;
+    }
+
+    .servicos .servicos-cards{
+    
+        justify-content: center;
+    }   
+
+    .footer-principal{
+        margin-top:0px ;
+    
+    }
+
+    .servico-atendimento {
+        display: block;
+     }
+    
+
+     .footer-principal .footer-help{
+        margin-left: 0;
+    }
+
+
+}
+
+/* Landscape phones and down */
+
+  
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)  { 
+    body{
+      margin-bottom: 55px;
+      width: calc(100vh - 321px);
+    }
+
+  
+
+    header nav ul {
+        position: fixed;
+        bottom: 0;
+        left:0; 
+        width: 100%;
+        padding: 0;
+        /* margin-left: -80px; */
+        background: #F5D3C8;
+        /* width: 480px; */
+        height: 55px;
+        font-weight: bold;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+        font-size: 12px;
+        
+    }
+    
+    h1{
+        text-align: center;
+    }
+
+    header nav p {
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+
+    .header-content h1{
+        font-size: 4rem;
+        justify-content: center;
+    }
+    
+
+    .pacotes{
+        background:#F5D3C8; 
+        
+        /* height: 2500px;  */
+    
+    }
+
+
+
+    .servicos .servicos-cards{
+        
+        justify-content: center;
+      
+        
+    
+    }
+    
+    .contato {
+        padding: 1px
+        
+        
+    }
+
+  
+
+    .formulario-content {
+        float: left;
+        max-width: 480px;
+        margin: auto;
+        margin-top: 10px;
+        padding: 20px;
+      
+}
+
+    .formulario-content .contato-title-h2 {
+        padding: 1px;
+
+    }
+
+    input, textarea{
+        max-width: 320px;
+    }
+
+    .servico-atendimento {
+       text-align: center;
+       /* margin-right: -4px; */
+       max-width: 480px;
+       height: auto;
+       
+    }
+
+    .servico-atendimento h3 {
+       font-size: 15px;
+    
+     }
+
+     .servico-atendimento h2 {
+        margin-left: 90px;
+     
+      }
+
+      .servico-atendimento p {
+        margin-left: 42px;
+     
+      }
+
+
+
+    .servico-atendimento .counteudo-logo .texto{
+        margin-left: -80px;
+        margin: auto;
+        padding: 0px;
+        
+    }
+
+    .servico-atendimento .counteudo-logo {
+        max-width: 350px;
+        height: auto;
+    }
+
+    .counteudo-logo .imagem-logo1{
+        width: 3px;
+        margin-left: 100px;
+      
+        
+    }
+
+    
+    .texto{
+        margin: auto;
+    }
+    
+    .img-personagem{
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 150px;
+        width: 50px;
+        margin-left: 100px;
+    }
+
+
+    .footer-principal {
+        margin-left: 0;
+       
+        
+    }
+
+    .footer-principal .footer-contatos{
+        font-size: 10px;
+    }
+
+    .footer-principal .footer-endereco{
+        font-size: 10px;
+        margin-right: 40px;
+    }
+    .footer-principal .footer-help{
+        font-size: 10px;
+        margin-top: 150px;
+        margin-left: 10px;
+    }
+    
+}
+
+/* Portrait tablet to landscape and desktop */
+ @media (min-width: 768px) and (max-width: 979px) { 
+
+    .pacotes{
+        height: auto;
+    }
+
+    header nav ul {
+        position: fixed;
+        bottom: 0;
+        left:0;
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        background: #F5D3C8;
+        height: 55px;
+        font-weight: bold;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99;
+
+    }
+
+
+    .pacotes .pacotes-cards {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        
+    }
+    
+    
+
+    .servicos .servicos-cards{
+    
+        justify-content: center;
+    }   
+
+    .footer-principal{
+        margin-top:0px ;
+    
+    }
+
+    .servico-atendimento {
+        display: block;
+     }
+    
+
+     .footer-principal .footer-help{
+        margin-left: 0;
+    }
+
+
+}
+
+/* Large desktop */
+ @media (min-width: 1200px) {
+
+ 
+    .pacotes{
+        height: auto;
+    }
+
+    /* header nav ul {
+        position: fixed;
+        bottom: 0;
+        left:0;
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        background: #F5D3C8;
+        height: 55px;
+        font-weight: bold;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99; */
+
+    }
+
+
+    .pacotes .pacotes-cards {
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        
+    }
+    
+   
+
+    .servicos .servicos-cards{
+    
+        justify-content: center;
+    }   
+
+    .footer-principal{
+        margin-top:0px ;
+    
+    }
+
+    .servico-atendimento {
+        display: block;
+     }
+    
+
+     .footer-principal .footer-help{
+        margin-left: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width: 767px) {
+
+    body{
+        margin-bottom: 55px;
+    }
+
+    .Papelici{
+        margin: auto;
+    }
+    
+    header nav ul {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #F5D3C8;
+        height: 55px;
+        margin: 0;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 99;
+    }
+
+    header nav li{
+        margin:0;
+    }
+    .formulario-content{
+        margin: auto;
+    }
+    .servico-atendimento{
+        margin: auto;
+        
+    
+    }
+
+    .textomenu h2{ 
+         font-size: 25px;
+
+        margin-left: -100px; 
+    }
+
+    .textomenu h1{
+        font-size: 50px;
+        margin-left: -150px; 
+    }
+
+    .logomenu{
+        height: 100%;
+    }
+
+    .servicos-cards{
+        margin: auto;
+        
+    }
+
+    .cards{
+        margin: auto;
+    }
+
+    .pacotes{
+        height: 2500px;
+    }
+
+    .pacotes-cards{
+        flex-wrap: wrap;
+       
+    }
+
+    .sobre-principal{
+        height: 800px;
+    }
+
+    footer{
+        height: 800px;
+        flex-wrap: wrap;
+    }
+
+    .footer-endereco{
+        margin-top: 1px;
+    }
+
+    .footer-help{
+        margin-top: 0px;
+    }
+
+    .footer-principal{
+        margin-top: 750px;
+        display: flex; 
+    }
+
+    .desenvolvido{
+        margin-top: -50px;
+        margin-left: 20px;
+       
+
+    }
+
+    }  */
+
+    
